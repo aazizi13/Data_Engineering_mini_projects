@@ -1,0 +1,198 @@
+    2  whoami
+    3  cd ~ w205
+    4  pwd
+    5  ls
+    6  cd ~/w205
+    7  mkdir ~/w205
+    8  ls
+    9  pwd
+   10  pwd
+   11  cd ..
+   12  pwd
+   13  ls
+   14  mkdir ~/w205
+   15  pwd
+   16  cd ~
+   17  pwd
+   18  ls
+   19  cd ~/w205
+   20  pwd
+   21  ls
+   22  ls
+   23  pwd
+   24  git clone https://github.com/mids-w205-chakraverty/assignment-1-aazizi13.git
+   25  pwd
+   26  clear
+   27  pwd
+   28  ls
+   29  clear
+   30  pwd
+   31  ls
+   32  git clone https://github.com/mids-w205-chakraverty/assignment-1-aazizi13.git
+   33  clear
+   34  pwd
+   35  ls
+   36  pwd
+   37  ls
+   38  cd ~
+   39  pwd
+   40  cd ..
+   41  pwd
+   42  cd ~ /jupyter
+   43  pwd
+   44  cd ~/w205
+   45  pwd
+   46  ls
+   47  cd ~/assignment-1-aazizi13
+   48  pwd
+   49  ls
+   50  cd ~
+   51  pwd
+   52  cd ..
+   53  pwd
+   54  cd ~
+   55  pwd
+   56  cd ~
+   57  pwd
+   58  clear
+   59  pwd 
+   60  cd ~/w205
+   61  pwd
+   62  pwd
+   63  ls
+   64  cd ~/assignment-1-aazizi13
+   65  cd ~/w205/assignment-1-aazizi13
+   66  pwd
+   67  ls
+   68  pwd
+   69  git branch assignment
+   70  ls
+   71  git checkout assignment
+   72  pwd
+   73  pwd
+   74  git branches
+   75  git branch
+   76  pwd
+   77  git branch
+   78  clear
+   79  pwd
+   80  git status
+   81  git add README.md
+   82  git status
+   83  git commit -m "Filled the answer part as requested"
+   84  clear
+   85  git status
+   86  git commit -m "Filled the answer part"
+   87  git config --global credential.helper store
+   88  git status
+   89  clear
+   90  git commit -m "Filled the answer part as requested"
+   91  Omit --global to set the identity only in this repository
+   92  pwd
+   93  ls
+   94  clear
+   95  git status
+   96  git commit -m "Filled the answer part as requested"
+   97  git config --global credential.helper store
+   98  clear
+   99  git status
+  100  git commit -m "Filled the answer part as requested"
+  101  git config --global user.name "Ahmad Azizi"
+  102  clear
+  103  git status
+  104  git commit -m "Filled the answer part as requested"
+  105  git status
+  106  clear
+  107  git branch
+  108  git push origin assignment
+  109  quit
+  110  exit
+  111  pwd
+  112  cd ~/w205
+  113  pwd
+  114  ls
+  115  curl -L -o annot_fpid.json https://goo.gl/qWiu7d
+  116  curl -L -o lp_data.csv https://goo.gl/FDFPYB
+  117  ls
+  118  ls -l
+  119  head lp_data.csv 
+  120  head -nl lp_data.csv 
+  121  head -n1 lp_data.csv 
+  122  cat lp_data.csv 
+  123  clear
+  124  cat lp_data.csv | wc
+  125  man wc
+  126  cat lp_data.csv | wc -l
+  127  cat lp_data.csv | wc -w
+  128  cat lp_data.csv | wc -c
+  129  ls -l lp_data.csv 
+  130  cat annot_fpid.json | jq .
+  131  cat annot_fpid.json | jq '.[][]'
+  132  cat annot_fpid.json | jq '.[][]' -r
+  133  cat annot_fpid.json | jq '.[][]' -r | wc -l
+  134  cat annot_fpid.json | jq '.[][]' -r | sort
+  135  cat annot_fpid.json | jq '.[][]' -r | sort | 1
+  136  cat annot_fpid.json | jq '.[][]' -r | sort | uniq
+  137  clear
+  138  SELECT gender, tripduration
+  139  FROM `bigquery-public-data`.new_york_citibike.citibike_trips
+  140  WHERE tripduration < 600
+  141  LIMIT 5;
+  142  bq
+  143  bq query --use_legacy_sql=false 'SELECT gender, tripduration
+  144  FROM `bigquery-public-data`.new_york_citibike.citibike_trips
+  145  WHERE tripduration < 600
+  146  LIMIT 5;
+  147  bq query --use_legacy_sql=false 'SELECT gender, tripduration
+  148  FROM `bigquery-public-data`.new_york_citibike.citibike_trips
+  149  WHERE tripduration < 600
+  150  LIMIT 5;
+  151  bq query --use_legacy_sql=false 'SELECT gender, tripduration'
+  152  FROM `bigquery-public-data`.new_york_citibike.citibike_trips
+  153  WHERE tripduration < 600
+  154  LIMIT 5;
+  155   SELECT gender, tripduration
+  156  FROM `bigquery-public-data`.new_york_citibike.citibike_trips
+  157  WHERE tripduration < 600
+  158  LIMIT 5;
+  159  FROM `bigquery-public-data`.new_york_citibike.citibike_trips
+  160  bq query --use_legacy_sql=false 'SELECT gender, tripduration
+  161  FROM `bigquery-public-data.new_york_citibike.citibike_trips`
+  162  WHERE tripduration < 600
+  163  LIMIT 5'
+  164  exit
+  165  sudo apt update
+  166  sudo apt install docker-compose
+  167  docker-compose
+  168  exit
+  169  pwd
+  170  cd w205
+  171  pwd
+  172  git clone https://github.com/mids-w205-chakraverty/project-2-aazizi13.git
+  173  pwd
+  174  cd project-2-aazizi13/
+  175  pwd
+  176  git branch assignment
+  177  git checkout assignment
+  178  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/ME6hjp
+  179  cp ~/w205/course-content//08-Querying-Data/docker-compose.yml .
+  180  pwd
+  181  docker-compose -ps
+  182  docker-compose -ps
+  183  docker-compose down
+  184  docker-compose up -d
+  185  docker-compose ps
+  186  clear
+  187  docker-compose exec cloudera hadoop fs -ls /tmp/
+  188  docker-compose exec kafka kafka-topics --create --topic assessment --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  189  docker-compose exec kafka kafka-topics --describe --topic assessment --zookeeper zookeeper:32181
+  192  docker-compose exec kafka kafka-topics --describe --topic assessment --zookeeper zookeeper:32181
+  193  docker-compose exec mids bash -c "cat /w205/project-2-aazizi13/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessments && echo 'Produced 100 messages.'"
+  194  docker-compose exec mids bash -c "cat /w205/project-2-aazizi13/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessment"
+  195  docker-compose exec mids bash -c "cat /w205/project-2-aazizi13/assessment-attempts-20180128-121051-nested.json"
+  196  docker-compose exec mids bash -c "cat /w205/project-2-aazizi13/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  197  docker-compose exec mids bash -c "cat /w205/project-2-aazizi13/assessment-attempts-20180128-121051-nested.json | jq '.'"
+  198  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t assessment -o beginning -e" | wc -l
+  199  docker-compose exec spark pyspark
+  200  docker-compose exec spark cat /root/.python_history
+  201  history > aazizi13-history.txt
